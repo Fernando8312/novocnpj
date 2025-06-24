@@ -24,12 +24,11 @@ Com mais de 58 milhões de CNPJs registrados até setembro de 2024, o modelo exc
             ▪ Letra C → ASCII 67 → 67 - 48 = 19, e assim por diante.
 	        Ex. CNPJ 12.ABC.345/01DE – (DV)
 
-          ![novocnpj](https://github.com/Fernando8312/novocnpj/blob/main/Telas/01.png)
+![novocnpj](https://github.com/Fernando8312/novocnpj/blob/main/Telas/01.png)
 
       2. Aplicar pesos de 2 a 9, da direita para a esquerda, reiniciando após o oitavo caractere:
-        ![novocnpj](https://github.com/Fernando8312/novocnpj/blob/main/Telas/02.png)
-
-        ![novocnpj](https://github.com/Fernando8312/novocnpj/blob/main/Telas/03.png)
+![novocnpj](https://github.com/Fernando8312/novocnpj/blob/main/Telas/02.png)
+![novocnpj](https://github.com/Fernando8312/novocnpj/blob/main/Telas/03.png)
 
   🧮 E depois?
     1. Multiplica cada valor pelo peso
@@ -38,7 +37,7 @@ Com mais de 58 milhões de CNPJs registrados até setembro de 2024, o modelo exc
     4. Aplica a regra:
       ◦ Se o resto = 0 ou 1 → DV = 0
       ◦ Senão → DV = 11 - resto
-    ![novocnpj](https://github.com/Fernando8312/novocnpj/blob/main/Telas/04.png)
+![novocnpj](https://github.com/Fernando8312/novocnpj/blob/main/Telas/04.png)
 
     No exemplo: Resto da divisão 459/11 = 8. 
 1º DV = 3 (resultado de 11-8)
