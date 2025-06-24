@@ -28,6 +28,7 @@ Ex. CNPJ 12.ABC.345/01DE – (DV)
 ![novocnpj](https://github.com/Fernando8312/novocnpj/blob/main/Telas/01.png)
 
   2. Aplicar pesos de 2 a 9, da direita para a esquerda, reiniciando após o oitavo caractere:  
+
 ![novocnpj](https://github.com/Fernando8312/novocnpj/blob/main/Telas/02.png)
 ![novocnpj](https://github.com/Fernando8312/novocnpj/blob/main/Telas/03.png)
 
