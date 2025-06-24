@@ -27,27 +27,33 @@ Ex. CNPJ 12.ABC.345/01DE – (DV)
 
 ![novocnpj](https://github.com/Fernando8312/novocnpj/blob/main/Telas/01.png)
 
-      2. Aplicar pesos de 2 a 9, da direita para a esquerda, reiniciando após o oitavo caractere:  
+  2. Aplicar pesos de 2 a 9, da direita para a esquerda, reiniciando após o oitavo caractere:  
 ![novocnpj](https://github.com/Fernando8312/novocnpj/blob/main/Telas/02.png)
 ![novocnpj](https://github.com/Fernando8312/novocnpj/blob/main/Telas/03.png)
 
-  🧮 E depois?  
-    1. Multiplica cada valor pelo peso  
-    2. Soma tudo  
-    3. Divide por 11  
-    4. Aplica a regra:  
-      ◦ Se o resto = 0 ou 1 → DV = 0  
-      ◦ Senão → DV = 11 - resto  
+🧮 E depois?  
+  1. Multiplica cada valor pelo peso  
+  2. Soma tudo  
+  3. Divide por 11  
+  4. Aplica a regra:  
+    ◦ Se o resto = 0 ou 1 → DV = 0  
+    ◦ Senão → DV = 11 - resto  
 ![novocnpj](https://github.com/Fernando8312/novocnpj/blob/main/Telas/04.png)
 
-    No exemplo: Resto da divisão 459/11 = 8. 
-1º DV = 3 (resultado de 11-8)
+  No exemplo: Resto da divisão 459/11 = 8  
+  1º DV = 3 (resultado de 11-8)  
 
-2️⃣ Segundo Dígito Verificador (DV2)
-    1. Acrescentar o DV1 ao final do número-base (agora são 13 caracteres).
-    2. Repetir o processo:
-        ◦ Aplicar novos pesos, agora começando em 6 e indo até 2.
-    3. Repetir os passos de conversão, multiplicação, soma e divisão.
-    4. Calcular o segundo DV com a mesma regra:
-        ◦ Se resto = 0 ou 1 → DV = 0
-        ◦ Senão → DV = 11 - resto
+2️⃣ Segundo Dígito Verificador (DV2)  
+  1. Acrescentar o DV1 ao final do número-base (agora são 13 caracteres).  
+  2. Repetir o processo:  
+    ◦ Aplicar novos pesos, agora começando em 6 e indo até 2.  
+  3. Repetir os passos de conversão, multiplicação, soma e divisão.  
+  4. Calcular o segundo DV com a mesma regra:  
+    ◦ Se resto = 0 ou 1 → DV = 0  
+    ◦ Senão → DV = 11 - resto  
+![novocnpj](https://github.com/Fernando8312/novocnpj/blob/main/Telas/05.png)
+
+Somatório (6+10+...+6) = 424  
+Resto da divisão 424/11 = 6  
+2º DV = 5 (resultado de 11-6)  
+Resultado final: 12.ABC.345/01DE-35  
