@@ -15,22 +15,14 @@ Com mais de 58 milhões de CNPJs registrados até setembro de 2024, o modelo exc
 • EX. 12.ABC.345/01DE-35
 
 🔢 Como calcular os dígitos verificadores (DV)?
-
-  1️⃣ Primeiro Dígito Verificador (DV1)
-
-    Passo a passo:
-
-      1. Converter os caracteres para valores numéricos, usando a tabela ASCII, subtraindo 48 do valor de cada caractere.
-
+1️⃣ Primeiro Dígito Verificador (DV1)
+Passo a passo:
+    1. Converter os caracteres para valores numéricos, usando a tabela ASCII, subtraindo 48 do valor de cada caractere.
         ◦ Ex:
-
             ▪ Letra A → ASCII 65 → 65 - 48 = 17,
-
             ▪ Letra B → ASCII 66 → 66 - 48 = 18, 
-
             ▪ Letra C → ASCII 67 → 67 - 48 = 19, e assim por diante.
-            
-	        Ex. CNPJ 12.ABC.345/01DE – (DV)
+	Ex. CNPJ 12.ABC.345/01DE – (DV)
 
 ![novocnpj](https://github.com/Fernando8312/novocnpj/blob/main/Telas/01.png)
 
